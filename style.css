@@ -1,0 +1,56 @@
+body {
+    background-color: #8aade2;
+    text-align: center;
+    font-family: 'Avenir', sans-serif;
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th{
+    background-color: #4d94ff;
+    color: white;
+}
+th, td {
+    border: 1px solid #57aaee;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: 3px solid #a3c1f0;
+}
+
+input[type="submit"] {
+    background: rgb(118, 109, 202);
+    color: white;  
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: rgb(99, 90, 173);
+}
+
+
+a {
+    background: #f04a4a;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #d73838;
+}
